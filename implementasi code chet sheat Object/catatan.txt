@@ -1,0 +1,54 @@
+Berikut adalah Cheatsheet untuk Metode dan Fitur Objek dalam JavaScript dengan versi terbaru yang sering digunakan oleh para
+developer JavaScript:
+
+Cheatsheet Metode Objek JavaScript :
+
+==========================================================================
+
+
+1. Object.keys(obj)
+Mengembalikan array dari semua nama properti (key) yang enumerable dari objek obj.
+
+2. Object.values(obj)
+Mengembalikan array dari semua nilai properti (values) yang enumerable dari objek obj.
+
+3. Object.entries(obj)
+Mengembalikan array dari pasangan [key, value] enumerable dari objek obj.
+
+4. Object.assign(target, ...sources)
+Menyalin semua properti enumerable dari satu atau lebih sumber (source) ke objek target, dan mengembalikan target.
+
+5. Object.freeze(obj)
+Membekukan objek obj, mencegah pengubahan properti atau penambahan properti baru.
+
+6. Object.seal(obj)
+Menyegel objek obj, mencegah penambahan properti baru, tetapi masih mengizinkan pengubahan properti yang ada.
+
+7. Object.create(proto, [propertiesObject])
+Membuat objek baru dengan prototipe proto dan properti tambahan yang diberikan.
+
+8. Object.hasOwn(obj, prop)
+Memeriksa apakah obj memiliki properti prop secara langsung, tanpa mengecek rantai prototipe. (Metode baru di ES2022, pengganti hasOwnProperty).
+
+9. Object.getOwnPropertyDescriptors(obj)
+Mengembalikan deskriptor properti untuk semua properti sendiri (non-prototype) dari objek obj.
+
+10. Object.getPrototypeOf(obj)
+Mengembalikan objek prototipe (prototype) dari obj.
+
+11. Object.setPrototypeOf(obj, prototype)
+Menyetel prototipe objek obj ke objek prototype yang diberikan.
+
+12. Object.fromEntries(iterable)
+Membuat objek dari iterable (array atau Map) pasangan [key, value].
+
+13. Object.is(value1, value2)
+Membandingkan dua nilai untuk menentukan apakah mereka secara ketat sama (mirip dengan === tapi memperbaiki kasus khusus seperti NaN).
+
+14. Object.defineProperty(obj, prop, descriptor)
+Menambahkan atau memodifikasi properti prop pada objek obj dengan deskripsi properti yang lebih detail (misalnya enumerable, configurable).
+
+15. Object.defineProperties(obj, props)
+Menambahkan atau memodifikasi beberapa properti pada objek obj sekaligus.
+
+==========================================================================
